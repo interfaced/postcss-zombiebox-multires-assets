@@ -1,0 +1,40 @@
+{
+  "name": "postcss-zombiebox-multires-assets",
+  "description": "PostCSS plugin to support multi resolution assets in ZombieBox applications",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "Interfaced (http://interfaced.tv)",
+  "contributors": [
+    "Kirill Dronkin <kirilldronkin@gmail.com>"
+  ],
+  "homepage": "https://github.com/interfaced/postcss-zombiebox-multires-assets",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:interfaced/postcss-zombiebox-multires-assets.git"
+  },
+  "keywords": [
+    "postcss",
+    "zombiebox",
+    "asset",
+    "resolution"
+  ],
+  "files": [
+    "LICENSE",
+    "README.md",
+    "CHANGELOG.md",
+    "index.js"
+  ],
+  "scripts": {
+    "lint": "eslint index.js"
+  },
+  "peerDependencies": {
+    "postcss": "^7.0.17"
+  },
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "eslint-config-interfaced": "^1.5.0",
+    "eslint-plugin-interfaced": "^1.6.1",
+    "eslint-plugin-node": "^9.1.0",
+    "postcss": "^7.0.17"
+  }
+}
